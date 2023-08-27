@@ -14,19 +14,19 @@
     font-size: 16px;
     width: 100vw;
     max-width: 50em;
-    padding: 3em 1.8em;
+    padding: 15px 15px;
     background-color: #201f28;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 0.6em;
-    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 1.2px 2px 3px rgba(0, 0, 0, 0.2);
   }
   .search-container {
     display: grid;
     grid-template-columns: 9fr 3fr;
-    gap: 1.2em;
+    gap: 120px;
   }
   .search-container input,
   .search-container button {
@@ -37,11 +37,8 @@
   .search-container input {
     background-color: transparent;
     border: 1px solid #a0a0a0;
-    padding: 0.7em;
+    padding: 12px;
     color: #ffffff;
-  }
-  .search-container input:focus {
-    border-color: #ffffff;
   }
   .search-container button {
     background-color: #ffb92a;
@@ -52,27 +49,27 @@
     color: #ffffff;
   }
   .info {
-    position: relative;
+    /* position: relative; */
     display: grid;
     grid-template-columns: 4fr 8fr;
     align-items: center;
-    margin-top: 1.2em;
+    margin-top: 8px;
   }
   .poster {
     width: 100%;
   }
   h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 28px;
     font-weight: 600;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1px;
   }
   .rating {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.6em;
-    margin: 0.6em 0 0.9em 0;
+    margin: 2px 0 4px 0;
   }
   .rating img {
     width: 1.2em;
